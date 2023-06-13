@@ -12,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "emailjs": "^4.0.2",
     "firebase": "^9.22.2",
     "gsap-trial": "^3.12.1",
     "leaflet": "^1.9.4",
