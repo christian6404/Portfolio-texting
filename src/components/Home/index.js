@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-// import Loader from 'react-loaders'
+import Loader from 'react-loaders'
 // import LogoTitle from '../../assets/images/logo-s.png'
 // import Logo from './Logo'
 import AnimatedCharacters from '../AnimatedCharacters';
@@ -41,6 +41,7 @@ const Home = () => {
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div> 
         </div>
+        <Loader type="cube-transition" />
         </>
     )
 }
