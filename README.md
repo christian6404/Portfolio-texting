@@ -42,4 +42,4 @@ HTML
 CSS
 
 ## URL
-### https://zackm-portfolio.herokuapp.com/contact
+### https://zackm-portfolio.herokuapp.com/
