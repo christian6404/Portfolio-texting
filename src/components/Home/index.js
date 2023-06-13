@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 // import Loader from 'react-loaders'
-// import AnimatedLetters from '../AnimatedLetters'
 // import LogoTitle from '../../assets/images/logo-s.png'
 // import Logo from './Logo'
 import AnimatedCharacters from '../AnimatedCharacters';
@@ -13,15 +12,15 @@ const Home = () => {
     const nameArray = [ ' ','Z', 'a', 'c', 'k', ' ', 'M', 'i', 'l', 'l', 'e', 'r']
     const titleArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ','E', 'n', 'g', 'i', 'n', 'e', 'e', 'r']
 
-    // Keeps breaking when I try to use this so it does not do the animation every time the user goes back to the home page.
+    // WHY WONT THIS 
     // useEffect(() => {
     //     return setTimeout(() => {
-    //         setCharacterClass('text-animate-hover')
+    //       setCharacterClass('text-animate-hover')
     //     }, 4000)
-    // }, [])
+    //   }, [])
     
     return (
-
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -42,7 +41,7 @@ const Home = () => {
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div> 
         </div>
-        
+        </>
     )
 }
 
