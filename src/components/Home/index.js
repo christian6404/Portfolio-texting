@@ -12,7 +12,7 @@ const Home = () => {
     const nameArray = [ ' ','Z', 'a', 'c', 'k', ' ', 'M', 'i', 'l', 'l', 'e', 'r']
     const titleArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ','E', 'n', 'g', 'i', 'n', 'e', 'e', 'r']
 
-    // WHY WONT THIS 
+    // WHY WONT THIS WORK!?!?!
     // useEffect(() => {
     //     return setTimeout(() => {
     //       setCharacterClass('text-animate-hover')
