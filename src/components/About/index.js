@@ -6,7 +6,6 @@ import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@forta
 import './index.scss'
 
 const About = () => {
-
     const [characterClass, setCharacterClass] = useState('text-animate')
 
   return (
